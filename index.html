@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Todo app</title>
+
+</head>
+
+<body id="bodys">
+    <div id="todo" style="background-image: url('images/bg-desktop-light.jpg');background-repeat:no-repeat;">
+        <h1 id="tdo">T O D O <img id="svgi" onclick="bg()" src="images/icon-moon.svg"></h1>
+        <div id="newtodo">
+            <form id="insert">
+                <input type="text" id="texttoinsert">
+            </form>
+            <button onclick="createtodo()" id="buttoinsert"><img id="svgi2" src="images/icdark.svg"></button>
+            <br><br>
+            <table id="todotable" onclick="check()" style="color: black;"></table>
+
+
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Aiswarya C B</a>.
+    </div>
+
+
+
+
+</body>
+
+</html>
